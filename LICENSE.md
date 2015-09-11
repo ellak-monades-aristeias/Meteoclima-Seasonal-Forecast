@@ -1,4 +1,4 @@
-ACDG/HUA is not an operational data facility.No warranties 
+ACDG/HUA is not an operational data facility. No warranties 
 are expressed or implied regarding the accuracy,completeness,
 or reliability of the information provided or linked to in the meteoclima 
 web portal. Users are cautioned to consider the provisional nature of the product 
