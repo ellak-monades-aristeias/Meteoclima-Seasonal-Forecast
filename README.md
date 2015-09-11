@@ -15,4 +15,5 @@ Kalnay, E., Kanamitsu, M., Kistler, R., Collins, W., Deaven, D., Gandin, L.,  Ir
 
 Katsafados P., A. Papadopoulos, G. Varlas, E. Papadopoulou, and E. Mavromatidis: Seasonal predictability of the 2010 Russian heat wave, Nat. Hazards Earth Syst. Sci., 14, 1531-1542, 2014.
 
-The technical information about the two tasks included in the project will be found in the wihub
+
+The technical information about the Shell and NCL scripts which define the operation of Seasonal forecasting and are included in the first task of the project will be found here soon.
