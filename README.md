@@ -9,8 +9,10 @@ How to interpret the charts: In order to assign the estimated temperature anomal
 
  You can see the seasonal forecasts at the website of ACDG/HUA http://meteoclima.hua.gr/
 
-    Hoffman, R. N., and Kalnay, E.: Lagged averaged forecasting, an alternative to Monte Carlo forecasting, Tellus, 35A, pp. 100-118, 1983.
-    Kalnay, E., Kanamitsu, M., Kistler, R., Collins, W., Deaven, D., Gandin, L.,  Iredell, M., Saha, S., White, G., Woollen, J., Zhu, Y., Chelliah, M., Ebisuzaki, W., Higgins, W., Janowiak, J., Mo, K. C., Ropelewski, C., Wang, J., Leetmaa, A., Reynolds, R., Jenne, R., and Joseph, D.: The NMC/NCAR 40-Year Reanalysis Project, Bull. Amer. Meteor. Soc., 77, 437-471, 1996.
-    Katsafados P., A. Papadopoulos, G. Varlas, E. Papadopoulou, and E. Mavromatidis: Seasonal predictability of the 2010 Russian heat wave, Nat. Hazards Earth Syst. Sci., 14, 1531-1542, 2014.
+Hoffman, R. N., and Kalnay, E.: Lagged averaged forecasting, an alternative to Monte Carlo forecasting, Tellus, 35A, pp. 100-118, 1983.
 
-The technical information about the two tasks included in the project will be in the wihub
+Kalnay, E., Kanamitsu, M., Kistler, R., Collins, W., Deaven, D., Gandin, L.,  Iredell, M., Saha, S., White, G., Woollen, J., Zhu, Y., Chelliah, M., Ebisuzaki, W., Higgins, W., Janowiak, J., Mo, K. C., Ropelewski, C., Wang, J., Leetmaa, A., Reynolds, R., Jenne, R., and Joseph, D.: The NMC/NCAR 40-Year Reanalysis Project, Bull. Amer. Meteor. Soc., 77, 437-471, 1996.
+
+Katsafados P., A. Papadopoulos, G. Varlas, E. Papadopoulou, and E. Mavromatidis: Seasonal predictability of the 2010 Russian heat wave, Nat. Hazards Earth Syst. Sci., 14, 1531-1542, 2014.
+
+The technical information about the two tasks included in the project will be found in the wihub
