@@ -17,3 +17,7 @@ Katsafados P., A. Papadopoulos, G. Varlas, E. Papadopoulou, and E. Mavromatidis:
 
 
 The technical information about the Shell and NCL scripts which define the operation of Seasonal forecasting and are included in the first task of the project will be found here soon.
+
+Περισσότερες πληροφορίες μπορείτε να βρείτε στο Wiki
+
+Κώδικας με άδεια EUPL v1.1 και περιεχομένο με CC-BY-SA 4.0.
