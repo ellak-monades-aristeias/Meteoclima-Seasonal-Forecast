@@ -14,7 +14,7 @@ cd $RUNDIR
 cp -f namelist.input namelist.input_prev
 cp -f namelist.input_$1 namelist.input
 date
-/opt/intel/composer_xe_2013_sp1.0.080/mpirt/bin/intel64/mpiexec -machinefile $RUNDIR/machs -np 24 $RUNDIR/real.exe
+mpiexec -machinefile $RUNDIR/machs -np 24 $RUNDIR/real.exe
 date
 sleep 5
 cp -f wrfinput_d01 "wrfinput_d01_"$1"_org"
@@ -29,7 +29,7 @@ cp -f wrfinput_d02 "wrfinput_d02_"$1
 cp -f wrflowinp_d02 "wrflowinp_d02_"$1
 sleep 5
 date
-/opt/intel/composer_xe_2013_sp1.0.080/mpirt/bin/intel64/mpiexec -machinefile $RUNDIR/machs -np 24 $RUNDIR/wrf.exe
+mpiexec -machinefile $RUNDIR/machs -np 24 $RUNDIR/wrf.exe
 date
 sleep 5
 cd $UPPDIR
