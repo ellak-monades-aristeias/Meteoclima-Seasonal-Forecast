@@ -17,3 +17,5 @@ Katsafados P., A. Papadopoulos, G. Varlas, E. Papadopoulou, and E. Mavromatidis:
 
 
 The technical information about the Shell and NCL scripts which define the operation of Seasonal forecasting are found at Wiki.
+
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Άδεια Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />Το έργο με τίτλο <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Πληροφορικές βελτιώσεις στην εποχιακή πρόγνωση του καιρού</span> από τον δημιουργό<a xmlns:cc="http://creativecommons.org/ns#" href="http://meteoclima.hua.gr/" property="cc:attributionName" rel="cc:attributionURL"> Γεώργιο Βάρλα</a> διατίθεται με την άδεια <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Αναφορά Δημιουργού - Παρόμοια Διανομή 4.0 Διεθνές </a>.
