@@ -24,7 +24,7 @@ end if
 end if
 end if
 
-resol=0.5
+resol=0.50
 aslon=floattointeger((east-west)/resol)-1
 aslat=floattointeger((north-south)/resol)-1
 
