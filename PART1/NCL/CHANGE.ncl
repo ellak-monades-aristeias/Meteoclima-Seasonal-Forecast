@@ -23,7 +23,7 @@ qsort(wrflon1d)
 icetime = c->time
 ice = short2flt(c->icec)
 icelat = c->lat(::-1)
-icelon = c->lon-180.
+icelon = c->lon-180.0
   month_abbr = (/"","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep", \
                     "Oct","Nov","Dec"/)
     icetime@units = "days since 1800-01-01 00:00:0.0"
