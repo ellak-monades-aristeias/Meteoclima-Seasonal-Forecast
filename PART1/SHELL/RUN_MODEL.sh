@@ -1,14 +1,14 @@
 #!/bin/sh
 set -x
 
-export RUNDIR=/meso01/GLOBAL/WRFV3/run
-export UPPDIR=/meso01/GLOBAL/UPPV2.1/scripts
-export POSTDIR=/meso01/GLOBAL/wrfprods/postprd
+export RUNDIR=path-to-RUNDIR
+export UPPDIR=path-to-UPPDIR
+export POSTDIR=path-to-POSTDIR
 export runid=$1
 export NCARG_ROOT=/usr/share/ncl_ncarg-6.1.2
 export NCL=$NCARG_ROOT/bin/ncl
 export CHANGES=$RUNDIR/CHANGES.ncl
-export STORE=/meso02/GLOBAL/AUGUST_2015
+export STORE=path-to-STORE
 
 cd $RUNDIR
 cp -f namelist.input namelist.input_prev
