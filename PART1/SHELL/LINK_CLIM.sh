@@ -1,5 +1,5 @@
 #!/bin/sh
-#set -x
+set -x
 
 init=GFS:2015-08-17_00
 
@@ -16,7 +16,7 @@ gfs14_2d=GFS:2016-
 tel=_00
 
 
-for j in {1..8}  # rerun with 2016->2015 for j in {9..12}
+for j in {1..8}  # For more simple debugging run the script 2 times. Rerun with 2016->2015 for j in {9..12}
 do
 
 if (( $j == 1 ))
