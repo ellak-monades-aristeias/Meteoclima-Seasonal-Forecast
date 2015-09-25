@@ -16,7 +16,7 @@ gfs14_2d=GFS:2016-
 tel=_00
 
 
-for j in {1..8}
+for j in {1..8}  # rerun with 2016->2015 for j in {9..12}
 do
 
 if (( $j == 1 ))
