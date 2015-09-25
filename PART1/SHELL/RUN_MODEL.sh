@@ -1,5 +1,5 @@
 #!/bin/sh
-#set -x
+set -x
 
 export RUNDIR=/meso01/GLOBAL/WRFV3/run
 export UPPDIR=/meso01/GLOBAL/UPPV2.1/scripts
