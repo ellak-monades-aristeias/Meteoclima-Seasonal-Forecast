@@ -129,8 +129,6 @@ end do
 
 end if
 
-;;; aug 2015 ;;;
-
 stadec=120+apo
 endjan=151+apo
 do t=stadec,endjan
@@ -139,8 +137,6 @@ m=(t-stadec)/31.
 print(t+" "+k+" "+m)
 sst(t,:,:)=k*sst(stadec,:,:)+m*sst(endjan,:,:)
 end do
-
-;;;;;;;;;;;;;;;;
 
 do t=1,14
 print(t)
@@ -179,3 +175,5 @@ a->SEAICE = seaice
 end if
 
 end 
+
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Άδεια Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />Το έργο με τίτλο <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Πληροφορικές βελτιώσεις στην εποχιακή πρόγνωση του καιρού</span> από τον δημιουργό<a xmlns:cc="http://creativecommons.org/ns#" href="http://meteoclima.hua.gr/" property="cc:attributionName" rel="cc:attributionURL"> Γεώργιο Βάρλα</a> διατίθεται με την άδεια <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Αναφορά Δημιουργού - Παρόμοια Διανομή 4.0 Διεθνές </a>.
