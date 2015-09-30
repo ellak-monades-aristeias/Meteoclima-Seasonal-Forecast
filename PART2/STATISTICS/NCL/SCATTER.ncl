@@ -139,80 +139,6 @@ res@xyLineColor     = "Blue"
  
 plot2  = gsn_csm_xy (wks,allobs(:,par),req1,res) ; create plot
 
-;;;;;;;;;;;;;;;;;;
-
-if (nm+1).lt.nmodels then
-res@xyMarkLineMode    = (/"Markers"/)                ; choose to use markers
-  res@xyMarkers         =  16                      ; choose type of marker
-  res@xyMarkerColor     = "red"
-  res@xyMarkerSizeF     = 0.0036 
-res@pmLegendDisplayMode    = "Always"            ; turn on legend
-  res@pmLegendSide           = "Top"               ; Change location of
-  res@pmLegendParallelPosF   = 1.23 ;1.1136 ;1.13                  ; move units right
-  res@pmLegendOrthogonalPosF = -0.20                ; move units down
-  res@pmLegendWidthF         = 0.1                ; Change width and
-  res@pmLegendHeightF        = 0.18                ; height of legend.
-  res@lgPerimOn              = False               ; turn off box around
-  res@lgLabelFontHeightF     = .014
-res@xyExplicitLegendLabels = (/"POS_AGG25"/)
-plot3  = gsn_csm_xy (wks,allobs(:,par),allmodel(:,par,nm+1),res) ; create plot
-  res@xyMarkLineMode    = (/"Lines"/)                ; choose to use markers
-res@xyDashPatterns      = 0                      ; solid line 
- res@xyLineThicknesses   = (/3.3/)                ; set second line to 2
-res@xyLineColor     = "red"
- plot4  = gsn_csm_xy (wks,allobs(:,par),req2,res) ; create plot
-res@xyLineThicknesses   = (/4.0/)                ; set second line to 2
-res@xyLineColor     = "Black"
-res@pmLegendDisplayMode    = "Never"
-end if
-
-if nm+2.lt.nmodels then
-res@xyMarkLineMode    = (/"Markers"/)                ; choose to use markers
-  res@xyMarkers         =  16                      ; choose type of marker
-  res@xyMarkerColor     = "green"  
-  res@xyMarkerSizeF     = 0.0036
-res@pmLegendDisplayMode    = "Always"            ; turn on legend
-  res@pmLegendSide           = "Top"               ; Change location of
-  res@pmLegendParallelPosF   = 1.19                  ; move units right
-  res@pmLegendOrthogonalPosF = -0.25                ; move units down
-  res@pmLegendWidthF         = 0.1                ; Change width and
-  res@pmLegendHeightF        = 0.18                ; height of legend.
-  res@lgPerimOn              = False               ; turn off box around
-  res@lgLabelFontHeightF     = .018   
-res@xyExplicitLegendLabels = (/"TRMM"/)
-plot5  = gsn_csm_xy (wks,allobs(:,par),allmodel(:,par,nm+2),res) ; create plot
-  res@xyMarkLineMode    = (/"Lines"/)                ; choose to use markers
-res@xyDashPatterns      = 0                      ; solid line
- res@xyLineThicknesses   = (/3.3/)                ; set second line to 2
-res@xyLineColor     = "green"
- plot6  = gsn_csm_xy (wks,allobs(:,par),req3,res) ; create plot
-res@xyLineThicknesses   = (/4.0/)                ; set second line to 2
-res@xyLineColor     = "Black"
-res@pmLegendDisplayMode    = "Never"
-end if
-
-if nm+3.lt.nmodels then
-res@xyMarkLineMode    = (/"Markers"/)                ; choose to use markers
-  res@xyMarkers         =  16                      ; choose type of marker
-  res@xyMarkerColor     = "orange"  
-  res@xyMarkerSizeF     = 0.0025
-res@pmLegendDisplayMode    = "Always"            ; turn on legend
-  res@pmLegendSide           = "Top"               ; Change location of
-  res@pmLegendParallelPosF   = 1.24                  ; move units right
-  res@pmLegendOrthogonalPosF = -0.46                ; move units down
-  res@pmLegendWidthF         = 0.1                ; Change width and
-  res@pmLegendHeightF        = 0.18                ; height of legend.
-  res@lgPerimOn              = False               ; turn off box around
-  res@lgLabelFontHeightF     = .018   
-res@xyExplicitLegendLabels = (/"MODEL 4"/)
-plot7  = gsn_csm_xy (wks,allobs(:,par),allmodel(:,par,nm+3),res) ; create plot
-  res@xyMarkLineMode    = (/"Lines"/)                ; choose to use markers
-res@xyDashPatterns      = 0                      ; solid line
- res@xyLineThicknesses   = (/3.3/)                ; set second line to 2
-res@xyLineColor     = "orange"
- plot8  = gsn_csm_xy (wks,allobs(:,par),req4,res) ; create plot
-end if
-
 res@xyLineThicknesses   = (/4.0/)                ; set second line to 2
 res@xyLineColor     = "Black"
 res@pmLegendDisplayMode    = "Never"
@@ -227,49 +153,6 @@ rc1Roundy=(-1)*rc1Roundy
 eq1="Y = "+rc1Round+"*X - "+rc1Roundy
 else
 eq1="Y = "+rc1Round+"*X + "+rc1Roundy
-
-end if
-
-if nm+1.lt.nmodels then
-rc2Round = decimalPlaces(rc2,2,True)
-rc2Roundy = decimalPlaces(rc2@yintercept,2,True)
-if rc2Roundy.lt.0 then   
-rc2Roundy=(-1)*rc2Roundy
-eq2="Y = "+rc2Round+"*X - "+rc2Roundy
-else
-eq2="Y = "+rc2Round+"*X + "+rc2Roundy
-end if
-res@txFontColor   = "Red"                    ; text font color
-gsn_text_ndc(wks,eq2,0.79,0.74,res)
-
-end if
-
-if nm+2.lt.nmodels then
-rc3Round = decimalPlaces(rc3,2,True)
-rc3Roundy = decimalPlaces(rc3@yintercept,2,True)
-if rc3Roundy.lt.0 then   
-rc3Roundy=(-1)*rc3Roundy
-eq3="Y = "+rc3Round+"*X - "+rc3Roundy
-else
-eq3="Y = "+rc3Round+"*X + "+rc3Roundy
-end if
-res@txFontColor   = "Green"                    ; text font color
-gsn_text_ndc(wks,eq3,0.79,0.70,res)
-
-end if
-
-if nm+3.lt.nmodels then
-
-rc4Round = decimalPlaces(rc4,2,True)
-rc4Roundy = decimalPlaces(rc4@yintercept,2,True)
-if rc4Roundy.lt.0 then   
-rc4Roundy=(-1)*rc4Roundy
-eq4="Y = "+rc4Round+"*X - "+rc4Roundy
-else
-eq4="Y = "+rc4Round+"*X + "+rc4Roundy
-end if
-res@txFontColor   = "Orange"                    ; text font color
-gsn_text_ndc(wks,eq4,0.83,0.60,res)
 
 end if
 
@@ -319,72 +202,17 @@ gsn_text_ndc(wks,sprintf("%5.2f",meanobs(par)),init+3*incr1,hei-3*inchei,res)
 
 end if
 
-if (nm+1).lt.nmodels then
-res@txFontColor   = "red"
-gsn_text_ndc(wks,sprinti("%6.0i",times(par,nm+1)),init+incr1+2*incr,hei,res)
-gsn_text_ndc(wks,sprintf("%6.2f",decimalPlaces(bias(par,nm+1),2,True)),init+incr1+2*incr,hei-inchei,res)
-gsn_text_ndc(wks,sprintf("%6.2f",decimalPlaces(rmse(par,nm+1),2,True)),init+incr1+2*incr,hei-2*inchei,res)
-gsn_text_ndc(wks,sprintf("%6.2f",decimalPlaces(meanmod(par,nm+1),2,True)),init+incr1+2*incr,hei-4*inchei,res)
-gsn_text_ndc(wks,sprintf("%6.2f",decimalPlaces(stdmod(par,nm+1),2,True)),init+incr1+2*incr,hei-6*inchei,res)
-gsn_text_ndc(wks,sprintf("%6.2f",decimalPlaces(pearson(par,nm+1),2,True)),init+incr1+2*incr,hei-7*inchei,res)
-gsn_text_ndc(wks,sprintf("%6.2f",decimalPlaces(abs(scatindex(par,nm+1)),2,True)),init+incr1+2*incr,hei-9*inchei,res)
-gsn_text_ndc(wks,sprintf("%6.2f",decimalPlaces(R2(par,nm+1),2,True)),init+incr1+2*incr,hei-8*inchei,res)
-end if
-
-if (nm+2).lt.nmodels then res@txFontColor = "green" 
-gsn_text_ndc(wks,sprinti("%6.0i",times(par,nm+2)),init+incr1+3*incr,hei,res) 
-gsn_text_ndc(wks,sprintf("%6.2f",decimalPlaces(bias(par,nm+2),2,True)),init+incr1+3*incr,hei-inchei,res) 
-gsn_text_ndc(wks,sprintf("%6.2f",decimalPlaces(rmse(par,nm+2),2,True)),init+incr1+3*incr,hei-2*inchei,res) 
-gsn_text_ndc(wks,sprintf("%6.2f",decimalPlaces(meanmod(par,nm+2),2,True)),init+incr1+3*incr,hei-4*inchei,res)
-gsn_text_ndc(wks,sprintf("%6.2f",decimalPlaces(stdmod(par,nm+2),2,True)),init+incr1+3*incr,hei-6*inchei,res) 
-gsn_text_ndc(wks,sprintf("%6.2f",decimalPlaces(pearson(par,nm+2),2,True)),init+incr1+3*incr,hei-7*inchei,res) 
-gsn_text_ndc(wks,sprintf("%6.2f",decimalPlaces(abs(scatindex(par,nm+2)),2,True)),init+incr1+3*incr,hei-9*inchei,res) 
-gsn_text_ndc(wks,sprintf("%6.2f",decimalPlaces(R2(par,nm+2),2,True)),init+incr1+3*incr,hei-8*inchei,res) 
-end if
-if (nm+3).lt.nmodels then res@txFontColor = "orange" 
-gsn_text_ndc(wks,sprinti("%6.0i",times(par,nm+3)),init+incr1+4*incr,hei,res) 
-gsn_text_ndc(wks,sprintf("%6.2f",decimalPlaces(bias(par,nm+3),2,True)),init+incr1+4*incr,hei-inchei,res) 
-gsn_text_ndc(wks,sprintf("%6.2f",decimalPlaces(rmse(par,nm+3),2,True)),init+incr1+4*incr,hei-2*inchei,res) 
-gsn_text_ndc(wks,sprintf("%6.2f",decimalPlaces(meanmod(par,nm+2),2,True)),init+incr1+3*incr,hei-4*inchei,res)
-gsn_text_ndc(wks,sprintf("%6.2f",decimalPlaces(stdmod(par,nm+3),2,True)),init+incr1+4*incr,hei-6*inchei,res) 
-gsn_text_ndc(wks,sprintf("%6.2f",decimalPlaces(pearson(par,nm+3),2,True)),init+incr1+4*incr,hei-7*inchei,res) 
-gsn_text_ndc(wks,sprintf("%6.2f",decimalPlaces(abs(scatindex(par,nm+3)),2,True)),init+incr1+4*incr,hei-9*inchei,res) 
-gsn_text_ndc(wks,sprintf("%6.2f",decimalPlaces(R2(par,nm+3),2,True)),init+incr1+4*incr,8*inchei,res) 
-end if
-
 delete(xline)
 
 overlay(plot1,plot2)
-if (nm+1).lt.nmodels then
-overlay(plot1,plot3)
-overlay(plot1,plot4)
-end if
-if (nm+2).lt.nmodels then
-overlay(plot1,plot5)
-overlay(plot1,plot6)
-end if
-if (nm+3).lt.nmodels then
-overlay(plot1,plot7)
-overlay(plot1,plot8)
-end if
+
 overlay(plot1,plot9)
 draw(plot1)
 frame(wks)
 
 delete(rc1)
 delete(req1)
-if nm+1.lt.nmodels then
-delete(rc2)
-delete(req2)
-end if
-if nm+2.lt.nmodels then
-delete(rc3) 
-delete(req3)
-end if
-if nm+3.lt.nmodels then
-delete(rc4) 
-delete(req4)
-end if
+
 delete(req5)
 delete(res)
 end if
