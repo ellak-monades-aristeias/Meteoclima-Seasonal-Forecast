@@ -35,8 +35,5 @@ thres(par,5)=200
 end do
 end do
 
-PARAMETER=new((/4/),string)
+PARAMETER=new((/1/),string)
 PARAMETER(0)="RAIN"
-PARAMETER(1)="SNO"
-PARAMETER(2)="RAD"
-PARAMETER(3)="ANY"
