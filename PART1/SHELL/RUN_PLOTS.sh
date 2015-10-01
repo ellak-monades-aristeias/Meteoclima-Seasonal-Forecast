@@ -10,7 +10,6 @@ export PLOT2=$LOCAL/PLOT_PREC_PROB.ncl
 export PLOT3=$LOCAL/PLOT_T850_QUAL_DIFF.ncl
 export PLOT4=$LOCAL/PLOT_SPAGHETTI.ncl
 export PLOT5=$LOCAL/PLOT_WIND850.ncl
-export PLOT6=$LOCAL/PLOT_RUNS_DIFF.ncl
 
 for ii in {0..1} {11..11}
 do
@@ -20,6 +19,5 @@ $NCL < $PLOT2
 $NCL < $PLOT3
 $NCL < $PLOT4 
 $NCL < $PLOT5
-$NCL < $PLOT6
 
 done
