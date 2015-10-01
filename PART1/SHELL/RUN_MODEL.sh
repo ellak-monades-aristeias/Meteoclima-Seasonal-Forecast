@@ -1,5 +1,5 @@
 #!/bin/sh
-set -x
+#set -x
 
 export RUNDIR=path-to-RUNDIR
 export UPPDIR=path-to-UPPDIR
@@ -33,7 +33,7 @@ mpiexec -machinefile $RUNDIR/machs -np 24 $RUNDIR/wrf.exe
 date
 sleep 5
 cd $UPPDIR
-./run_unipost.global $1 #>& log.global$1 &
+./run_unipost.global $1
 date
 sleep 5
 cd $STORE/WRFREAL
