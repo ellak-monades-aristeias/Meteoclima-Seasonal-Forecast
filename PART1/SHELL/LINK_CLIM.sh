@@ -1,6 +1,3 @@
-#!/bin/sh
-set -x
-
 init=GFS:2015-08-17_00
 
 sst96=SST:1996-0
