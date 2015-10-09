@@ -1,6 +1,3 @@
-#!/bin/bash
-#set -x
-
 export LOCAL=path-to-SCRIPTS
 cd $LOCAL
 export NCARG_ROOT=/usr/share/ncl_ncarg-6.1.2
