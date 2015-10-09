@@ -1,6 +1,3 @@
-#!/bin/bash
-#set -x
-
 SPATHDIR="path-to-STATISTICS"
 
 cd $SPATHDIR
