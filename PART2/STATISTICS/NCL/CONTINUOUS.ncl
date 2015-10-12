@@ -5,19 +5,15 @@ load "$NCARG_ROOT/lib/ncarg/nclscripts/csm/shea_util.ncl"
 
 begin
 
-;;;;;;; INITIAL ;;;;;;;;
-
 if CASESTUDY.eq.1 then
 load "./NAMELIST.ncl"
 CASE="GWRF"
 end if
 
-;;;;;;; npar and ncol no from namelist above ;;;
-
 load"./CONST_CONTINUOUS.ncl"
 
 if timeplots.eq.1 then
-difflim=new((/4/),float)  ;; 4 for timeplots 3 for statistics
+difflim=new((/4/),float)
 else
 difflim=new((/3/),float)
 end if
@@ -38,6 +34,7 @@ fnames=asciiread("./"+CASE+"_"+TYPE+"_only_names.txt",-1,"string")
 end if
 
 ;;;;;;;;;;;;;;;;;;
+
 len=dimsizes(f)
 nstations=floattointeger(f(0))
 nss=2
