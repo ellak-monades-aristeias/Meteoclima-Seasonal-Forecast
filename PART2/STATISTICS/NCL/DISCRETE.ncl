@@ -10,8 +10,6 @@ CASE="SEASONAL_PREC_"+mmm+"_0_-180_180_-70_70_Deg_0.5"
 version="JUNE"  ;; the month
 resol=0.5
 
-;;;;;;; INITIAL ;;;;;;;;
-
 if mmm.eq.6 then
 WHEN="JUNE 2015  "
 else if mmm.eq.7 then
