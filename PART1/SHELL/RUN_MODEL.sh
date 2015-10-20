@@ -1,3 +1,6 @@
+#!/bin/bash
+#set -x
+
 export RUNDIR=path-to-RUNDIR
 export UPPDIR=path-to-UPPDIR
 export POSTDIR=path-to-POSTDIR
