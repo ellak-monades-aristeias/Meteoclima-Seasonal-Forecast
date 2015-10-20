@@ -32,7 +32,7 @@ Zhang Y., Hemperly J., Meskhidze N. and Skamarock W. C. (2012). The Global Weath
 Φάση 1:                 1η – 9η εβδομάδα       
 Φάση 2:                 6η – 12η εβδομάδα 
 
-**Οι κώδικες Linux Shell και NCL για τα παραδοτέα 1 και 2 βρίσκονται στα directories PART1 και PART2 αντίστοιχα. Πληροφορίες για τα παραδοτέα, αναλυτικές τεχνικές λεπτομέρειες για τη χρήση των Scripts και η τεκμηρίωση για τον τρόπο υλοποίησης των δύο παραδοτέων του Έργου υπάρχουν στο [Wiki](https://github.com/ellak-monades-aristeias/Meteoclima-Seasonal-Forecast/wiki).**
+**Οι κώδικες Linux Shell και NCL για τα παραδοτέα 1 και 2 βρίσκονται στα directories PART1 και PART2 αντίστοιχα. Πληροφορίες για τα παραδοτέα, αναλυτικές τεχνικές λεπτομέρειες για τη χρήση των Scripts, η τεκμηρίωση για τον τρόπο υλοποίησης των δύο παραδοτέων του Έργου και τα βασικά συμπεράσματα υπάρχουν στο [Wiki](https://github.com/ellak-monades-aristeias/Meteoclima-Seasonal-Forecast/wiki).**
 
 **Αναλυτικές οδηγίες που απευθύνονται σε τελικούς μη εξειδικευμένους χρήστες υπάρχουν στο [README_common.md](https://github.com/ellak-monades-aristeias/Meteoclima-Seasonal-Forecast/blob/master/README_common.md). Τεχνικές οδηγίες που απευθύνονται σε πιο εξειδικευμένους χρήστες (developers ή/και σχεδιαστές) υπάρχουν στο [README_special.md](https://github.com/ellak-monades-aristeias/Meteoclima-Seasonal-Forecast/blob/master/README_special.md)**
 
