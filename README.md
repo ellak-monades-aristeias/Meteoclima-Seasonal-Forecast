@@ -32,6 +32,9 @@ Zhang Y., Hemperly J., Meskhidze N. and Skamarock W. C. (2012). The Global Weath
 Φάση 1:                 1η – 9η εβδομάδα       
 Φάση 2:                 6η – 12η εβδομάδα 
 
-**Οι κώδικες Linux Shell και NCL για τα παραδοτέα 1 και 2 βρίσκονται στα directories PART1 και PART2 αντίστοιχα. Πληροφορίες για τα παραδοτέα και τεχνικές λεπτομέρειες για τη χρήση των Scripts υπάρχουν στο [Wiki](https://github.com/ellak-monades-aristeias/Meteoclima-Seasonal-Forecast/wiki).**
+**Οι κώδικες Linux Shell και NCL για τα παραδοτέα 1 και 2 βρίσκονται στα directories PART1 και PART2 αντίστοιχα. Πληροφορίες για τα παραδοτέα, αναλυτικές τεχνικές λεπτομέρειες για τη χρήση των Scripts και η τεκμηρίωση του Έργου υπάρχουν στο [Wiki](https://github.com/ellak-monades-aristeias/Meteoclima-Seasonal-Forecast/wiki).**
+
+**Αναλυτικές οδηγίες που απευθύνονται σε τελικούς μη εξειδικευμένους χρήστες υπάρχουν στο [README_common]. Τεχνικές οδηγίες που απευθύνονται σε πιο εξειδικευμένους χρήστες (developers ή/και σχεδιαστές) υπάρχουν στο [README_special]**
+
 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Άδεια Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />Το έργο με τίτλο <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Πληροφορικές βελτιώσεις στην εποχιακή πρόγνωση του καιρού</span> από τον δημιουργό<a xmlns:cc="http://creativecommons.org/ns#" href="http://meteoclima.hua.gr/" property="cc:attributionName" rel="cc:attributionURL"> Γεώργιο Βάρλα</a> διατίθεται με την άδεια <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Αναφορά Δημιουργού - Παρόμοια Διανομή 4.0 Διεθνές </a>.
