@@ -30,10 +30,11 @@ Zhang Y., Hemperly J., Meskhidze N. and Skamarock W. C. (2012). The Global Weath
 
 Στον πίνακα φαίνονται τα 2 παραδοτέα του Έργου με τις αντίστοιχες θέσεις στο repository.
 
-| Αριθμός        | Παραδοτέο           | Υπερσύνδεσμος  |
-| ------------- |:-------------:| -----:|
-| 1      | **Παραδοτέο 1: Οι κώδικες που θα αναπτυχθούν και θα τροποποιηθούν στο πλαίσιο βελτίωσης της επιχειρησιακής λειτουργίας του μοντέλου.** | https://github.com/ellak-monades-aristeias/Meteoclima-Seasonal-Forecast/tree/master/PART1 |
-| 2      | **Παραδοτέο 2: Οι κώδικες αξιολόγησης των εποχιακών προγνώσεων. Θα διατεθούν επίσης ελεύθερα οι τρέχουσες εποχιακές προγνώσεις υπό μορφή θεματικών χαρτών και δεδομένων δυαδικής μορφής.**      | https://github.com/ellak-monades-aristeias/Meteoclima-Seasonal-Forecast/tree/master/PART2   |
+| Παραδοτέο           | Υπερσύνδεσμος  |
+|:-------------:| -----:|
+| Οι κώδικες που θα αναπτυχθούν και θα τροποποιηθούν στο πλαίσιο βελτίωσης της επιχειρησιακής λειτουργίας του μοντέλου | https://github.com/ellak-monades-aristeias/Meteoclima-Seasonal-Forecast/tree/master/PART1 |
+| Οι κώδικες αξιολόγησης των εποχιακών προγνώσεων. Θα διατεθούν επίσης ελεύθερα οι τρέχουσες εποχιακές προγνώσεις υπό μορφή θεματικών χαρτών και δεδομένων δυαδικής μορφής     | https://github.com/ellak-monades-aristeias/Meteoclima-Seasonal-Forecast/tree/master/PART2
+https://github.com/ellak-monades-aristeias/Meteoclima-Seasonal-Forecast/wiki|
 
 
 **Οι κώδικες Linux Shell και NCL για τα παραδοτέα 1 και 2 βρίσκονται στα directories PART1 και PART2 αντίστοιχα. Πληροφορίες για τα παραδοτέα, αναλυτικές τεχνικές λεπτομέρειες για τη χρήση των Scripts, η τεκμηρίωση για τον τρόπο υλοποίησης των δύο παραδοτέων του Έργου και τα βασικά συμπεράσματα υπάρχουν στο [Wiki](https://github.com/ellak-monades-aristeias/Meteoclima-Seasonal-Forecast/wiki).**
