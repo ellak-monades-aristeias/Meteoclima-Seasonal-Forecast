@@ -40,9 +40,9 @@ Zhang Y., Hemperly J., Meskhidze N. and Skamarock W. C. (2012). The Global Weath
 | **Παραδοτέα**           | **URLs**  |
 |:-------------:| -----:|
 | 1. Οι κώδικες που θα αναπτυχθούν και θα τροποποιηθούν στο πλαίσιο βελτίωσης της επιχειρησιακής λειτουργίας του μοντέλου     |
+2. Οι κώδικες αξιολόγησης των εποχιακών προγνώσεων. Θα διατεθούν επίσης ελεύθερα οι τρέχουσες εποχιακές προγνώσεις υπό μορφή θεματικών χαρτών και δεδομένων δυαδικής μορφής     |
 https://github.com/ellak-monades-aristeias/Meteoclima-Seasonal-Forecast/tree/master/PART1, https://github.com/ellak-monades-aristeias/Meteoclima-Seasonal-Forecast/wiki|
-
-|2. Οι κώδικες αξιολόγησης των εποχιακών προγνώσεων. Θα διατεθούν επίσης ελεύθερα οι τρέχουσες εποχιακές προγνώσεις υπό μορφή θεματικών χαρτών και δεδομένων δυαδικής μορφής     | https://github.com/ellak-monades-aristeias/Meteoclima-Seasonal-Forecast/tree/master/PART2, https://github.com/ellak-monades-aristeias/Meteoclima-Seasonal-Forecast/wiki|
+https://github.com/ellak-monades-aristeias/Meteoclima-Seasonal-Forecast/tree/master/PART2, https://github.com/ellak-monades-aristeias/Meteoclima-Seasonal-Forecast/wiki|
 
 
 **Πληροφορίες για τα παραδοτέα, αναλυτικές τεχνικές λεπτομέρειες για τη χρήση των Scripts, η τεκμηρίωση για τον τρόπο υλοποίησης των δύο παραδοτέων του Έργου και τα βασικά συμπεράσματα υπάρχουν στο [Wiki](https://github.com/ellak-monades-aristeias/Meteoclima-Seasonal-Forecast/wiki).**
