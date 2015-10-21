@@ -17,8 +17,12 @@ Zhang Y., Hemperly J., Meskhidze N. and Skamarock W. C. (2012). The Global Weath
 **To έργο χωρίζεται σε 2 φάσεις με το χρονοδιάγραμμα που φαίνεται παρακάτω:**
 
 **Χρονοδιάγραμμα**      
-Φάση 1:                 1η – 9η εβδομάδα
-Φάση 2:                 6η – 12η εβδομάδα
+
+| **Φάσεις**           | **Εβδομάδες**  |
+|:-------------:| -----:|
+| Φάση 1 | 1η – 9η εβδομάδα |
+| Φάση 2     | 6η – 12η εβδομάδα|
+
 
 **Φάση 1: Βελτιστοποίηση επιχειρησιακής λειτουργίας**
 
@@ -28,26 +32,18 @@ Zhang Y., Hemperly J., Meskhidze N. and Skamarock W. C. (2012). The Global Weath
 
 Στη συγκεκριμένη φάση θα αναπτυχθεί μεθοδολογία και λογισμικό αξιολόγησης των προγνώσεων. Η αξιολόγηση θα βασίζεται σε καθιερωμένους στατιστικούς ελέγχους των προγνωστικών πεδίων της θερμοκρασίας, της ατμοσφαιρικής πίεσης, του ανέμου και της βροχόπτωσης σε σχέση με τα αντίστοιχα πλεγματικά πεδία ανάλυσης. Για τον συγκεκριμένο σκοπό θα αναπτυχθούν κώδικες σε Scripting Languages για την επαναπροβολή των προγνώσεων στις θέσεις των αναλύσεων καθώς και για τις εκτιμήσεις των στατιστικών μεγεθών.
 
-**Στον πίνακα φαίνονται τα 2 παραδοτέα του Έργου με τα αντίστοιχα links στο repository.**
+**Στον πίνακα παραδοτέων φαίνονται τα 2 παραδοτέα του Έργου με τα αντίστοιχα URLs στο repository.**
 
-| Παραδοτέα           | Links  |
+**Πίνακας παραδοτέων**
+
+| **Παραδοτέα**           | **URLs**  |
 |:-------------:| -----:|
-| 1. Οι κώδικες που θα αναπτυχθούν και θα τροποποιηθούν στο πλαίσιο βελτίωσης της επιχειρησιακής λειτουργίας του μοντέλου | https://github.com/ellak-monades-aristeias/Meteoclima-Seasonal-Forecast/tree/master/PART1 |
+| 1. Οι κώδικες που θα αναπτυχθούν και θα τροποποιηθούν στο πλαίσιο βελτίωσης της επιχειρησιακής λειτουργίας του μοντέλου | https://github.com/ellak-monades-aristeias/Meteoclima-Seasonal-Forecast/tree/master/PART1,
+https://github.com/ellak-monades-aristeias/Meteoclima-Seasonal-Forecast/wiki |
 | 2. Οι κώδικες αξιολόγησης των εποχιακών προγνώσεων. Θα διατεθούν επίσης ελεύθερα οι τρέχουσες εποχιακές προγνώσεις υπό μορφή θεματικών χαρτών και δεδομένων δυαδικής μορφής     | https://github.com/ellak-monades-aristeias/Meteoclima-Seasonal-Forecast/tree/master/PART2, https://github.com/ellak-monades-aristeias/Meteoclima-Seasonal-Forecast/wiki|
 
-<table>
-<tr>
-<th>Αριθμός</th><th>Παραδοτέα</th><th>URLs</th>
-</tr>
-<tr>
-<td>1</td><td>Οι κώδικες που θα αναπτυχθούν και θα τροποποιηθούν στο πλαίσιο βελτίωσης της επιχειρησιακής λειτουργίας του μοντέλου</td><td>https://github.com/ellak-monades-aristeias/Meteoclima-Seasonal-Forecast/wiki, https://github.com/ellak-monades-aristeias/Meteoclima-Seasonal-Forecast/tree/master/PART1</td>
-</tr>
-<tr>
-<td>2</td><td>Οι κώδικες αξιολόγησης των εποχιακών προγνώσεων. Θα διατεθούν επίσης ελεύθερα οι τρέχουσες εποχιακές προγνώσεις υπό μορφή θεματικών χαρτών και δεδομένων δυαδικής μορφής (apk)</td><td>https://github.com/ellak-monades-aristeias/Meteoclima-Seasonal-Forecast/wiki, https://github.com/ellak-monades-aristeias/meteoclima-android/wiki/Η-Android-Εφαρμογή-Πρόγνωσης-Καιρού , </td>
-</tr>
-</table>
 
-**Οι κώδικες Linux Shell και NCL για τα παραδοτέα 1 και 2 βρίσκονται στα directories PART1 και PART2 αντίστοιχα. Πληροφορίες για τα παραδοτέα, αναλυτικές τεχνικές λεπτομέρειες για τη χρήση των Scripts, η τεκμηρίωση για τον τρόπο υλοποίησης των δύο παραδοτέων του Έργου και τα βασικά συμπεράσματα υπάρχουν στο [Wiki](https://github.com/ellak-monades-aristeias/Meteoclima-Seasonal-Forecast/wiki).**
+**Πληροφορίες για τα παραδοτέα, αναλυτικές τεχνικές λεπτομέρειες για τη χρήση των Scripts, η τεκμηρίωση για τον τρόπο υλοποίησης των δύο παραδοτέων του Έργου και τα βασικά συμπεράσματα υπάρχουν στο [Wiki](https://github.com/ellak-monades-aristeias/Meteoclima-Seasonal-Forecast/wiki).**
 
 **Αναλυτικές οδηγίες που απευθύνονται σε τελικούς μη εξειδικευμένους χρήστες υπάρχουν στο [README_common.md](https://github.com/ellak-monades-aristeias/Meteoclima-Seasonal-Forecast/blob/master/README_common.md). Τεχνικές οδηγίες που απευθύνονται σε πιο εξειδικευμένους χρήστες (developers ή/και σχεδιαστές) υπάρχουν στο [README_special.md](https://github.com/ellak-monades-aristeias/Meteoclima-Seasonal-Forecast/blob/master/README_special.md)**
 
