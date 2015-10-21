@@ -23,6 +23,7 @@ Zhang Y., Hemperly J., Meskhidze N. and Skamarock W. C. (2012). The Global Weath
 | Φάση 1 | 1η – 9η εβδομάδα |
 | Φάση 2     | 6η – 12η εβδομάδα|
 
+**Επεξήγηση φάσεων:**
 
 **Φάση 1: Βελτιστοποίηση επιχειρησιακής λειτουργίας**
 
@@ -38,8 +39,8 @@ Zhang Y., Hemperly J., Meskhidze N. and Skamarock W. C. (2012). The Global Weath
 
 | **Παραδοτέα**           | **URLs**  |
 |:-------------:| -----:|
-| 1. Οι κώδικες που θα αναπτυχθούν και θα τροποποιηθούν στο πλαίσιο βελτίωσης της επιχειρησιακής λειτουργίας του μοντέλου | https://github.com/ellak-monades-aristeias/Meteoclima-Seasonal-Forecast/tree/master/PART1,
-https://github.com/ellak-monades-aristeias/Meteoclima-Seasonal-Forecast/wiki |
+| 1. Οι κώδικες που θα αναπτυχθούν και θα τροποποιηθούν στο πλαίσιο βελτίωσης της επιχειρησιακής λειτουργίας του μοντέλου | 
+https://github.com/ellak-monades-aristeias/Meteoclima-Seasonal-Forecast/tree/master/PART1, https://github.com/ellak-monades-aristeias/Meteoclima-Seasonal-Forecast/wiki|
 | 2. Οι κώδικες αξιολόγησης των εποχιακών προγνώσεων. Θα διατεθούν επίσης ελεύθερα οι τρέχουσες εποχιακές προγνώσεις υπό μορφή θεματικών χαρτών και δεδομένων δυαδικής μορφής     | https://github.com/ellak-monades-aristeias/Meteoclima-Seasonal-Forecast/tree/master/PART2, https://github.com/ellak-monades-aristeias/Meteoclima-Seasonal-Forecast/wiki|
 
 
