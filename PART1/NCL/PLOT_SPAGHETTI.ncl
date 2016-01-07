@@ -246,8 +246,8 @@ lgres@lgAutoManage = False
  lgres@vpWidthF           = 0.15                   ; width of legend (NDC)
  lgres@vpHeightF          = 0.10                   ; height of legend (NDC)
  lgres@lgPerimOn          = True                 ; turn off perimeter
- lgres@lgDashIndexes      = (/0,0,1,2/)              ; dash indexes
-labels = (/"Members","Climatology","Mean","Median"/)             ; no labels in lines
+ lgres@lgDashIndexes      = (/0,0,2,1/)              ; dash indexes
+labels = (/"Members","Climatology","Median","Mean"/)             ; no labels in lines
  gsn_legend_ndc(wks,4,labels,0.70,0.72,lgres)
 
 frame(wks)
