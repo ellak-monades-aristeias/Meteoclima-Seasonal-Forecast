@@ -73,7 +73,7 @@ end do
 end do
 end do
 
-if dd.eq.1 then   ;; the following are related to the initialization month. For august are shown below:
+;; the following are related to the initialization month. For august are shown below:
 
 do t=0,14
 seaice(t,:,:)=seaice(0,:,:)
@@ -127,7 +127,6 @@ do t=apo+344,dimtimes-1
 seaice(t,:,:)=reclimice(7,:,:)
 end do
 
-end if
 
 stadec=120+apo
 endjan=151+apo
