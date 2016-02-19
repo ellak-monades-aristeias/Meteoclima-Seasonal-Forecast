@@ -73,7 +73,7 @@ end do
 end do
 end do
 
-if dd.eq.1 then
+if dd.eq.1 then   ;; the following are related to the initialization month. For august are shown below:
 
 do t=0,14
 seaice(t,:,:)=seaice(0,:,:)
