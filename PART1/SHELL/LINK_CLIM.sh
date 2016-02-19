@@ -44,7 +44,7 @@ fi
 
 if (( $j == 2 ))
 then
-for i in 0{1..9} {10..28}
+for i in 0{1..9} {10..28}  # 28 or 29 for February
 do  
 k=`expr $i `
 echo $k
