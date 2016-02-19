@@ -5,7 +5,7 @@ load "$NCARG_ROOT/lib/ncarg/nclscripts/csm/shea_util.ncl"
 
 begin
 
-apo=abs(stringtointeger(getenv("runid"))-31)
+apo=abs(stringtointeger(getenv("runid"))-31)  ; the last day of the month e.g. for August is 31
 
 a = addfile("./wrflowinp_d0"+dd+".nc","w")
 b = addfile("./wrfinput_d0"+dd+".nc","r")
