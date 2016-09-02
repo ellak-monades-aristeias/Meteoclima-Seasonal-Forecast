@@ -57,6 +57,13 @@ Zhang Y., Hemperly J., Meskhidze N. and Skamarock W. C. (2012). The Global Weath
 
 **Επιπλέον, το σύστημα εποχιακής πρόγνωσης πρόκειται τους επόμενους μήνες να στηθεί στον υπερυπολογιστή "ARIS" της ΕΔΕΤ, καθώς εγκρίθηκε η πρόταση που είχε κατατεθεί από την ομάδα ACDG/HUA (πρόταση "SWF"), έπειτα από την πρόσκληση  "ΕΡΓΑ ΠΡΟΕΤΟΙΜΑΣΙΑΣ / ΑΝΑΠΤΥΞΗΣ ΣΤΟ ΣΥΣΤΗΜΑ ARIS (1st Evaluation Cut-off)"**
 
+**Δημοσιεύσεις σε συνέδρια που χρησιμοποιήθηκαν τα παραδοτέα του έργου:**
+
+Varlas, G., Katsafados, P., Papadopoulos A.: Seasonal predictability of the WRF model. 13th International Conference on Meteorology, Climatology and Atmospheric Physics (COMECAP 2016), Aristotle University of Thessaloniki, Thessaloniki, Greece, 19-21 September 2016.
+
+Varlas, G., Katsafados, P.: Computational improvements in seasonal weather forecasting. FOSSCOMM 2015, Technological Educational Institute of Athens, Athens, Greece, 7-8 November 2015.
+
+
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Άδεια Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />Το έργο με τίτλο <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Πληροφορικές βελτιώσεις στην εποχιακή πρόγνωση του καιρού</span> από τον δημιουργό<a xmlns:cc="http://creativecommons.org/ns#" href="http://meteoclima.hua.gr/" property="cc:attributionName" rel="cc:attributionURL"> Γεώργιο Βάρλα</a> διατίθεται με την άδεια <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Αναφορά Δημιουργού - Παρόμοια Διανομή 4.0 Διεθνές </a>.
 
 
