@@ -5,9 +5,11 @@ load "$NCARG_ROOT/lib/ncarg/nclscripts/csm/shea_util.ncl"
 
 begin
 
-;;; for 1 model it is OK. For more over 2 models it is good to avoid strict limits for model bot, top and difflim,
-;;;because the amount of the observations which are used in the evaluation is changed for every model
-;;;and the STDOBS, the Pearson and the R^2 are impacted.
+;;; The best way is to use limits only for observations. If you want to use model limits be careful. 
+;;; Because for 2 models or more, the amount of the observations which are used in the evaluation is determined
+;;; by the limits of the first model. Thus, MEANOBS, STDOBS, Pearson and R^2 for all models are impacted
+;;; by the limits of the first model and that causes slight errors. In that case, it is good to avoid strict 
+;;; limits for model bot, top and difflim.
 
 if CASESTUDY.eq.1 then
 load "./NAMELIST.ncl"
