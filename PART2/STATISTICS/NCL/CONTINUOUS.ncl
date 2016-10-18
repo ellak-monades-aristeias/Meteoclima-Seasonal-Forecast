@@ -5,7 +5,7 @@ load "$NCARG_ROOT/lib/ncarg/nclscripts/csm/shea_util.ncl"
 
 begin
 
-;;; for 1 model it is OK. For > 1 models it is good to avoid strict limits for model bot, top and difflim,
+;;; for 1 model it is OK. For more over 2 models it is good to avoid strict limits for model bot, top and difflim,
 ;;;because the amount of the observations which are used in the evaluation is changed for every model
 ;;;and the STDOBS, the Pearson and the R^2 are impacted.
 
