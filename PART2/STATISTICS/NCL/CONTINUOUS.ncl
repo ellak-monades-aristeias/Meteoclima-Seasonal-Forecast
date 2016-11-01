@@ -27,8 +27,8 @@ end if
 if STATYPE.eq.2 then
 TYPE="GWRF"
 difflim(0)=10000000.
-difflim(1)=6.
-difflim(2)=6.
+difflim(1)=10000000.
+difflim(2)=10000000.
 incpar=1
 end if
 
