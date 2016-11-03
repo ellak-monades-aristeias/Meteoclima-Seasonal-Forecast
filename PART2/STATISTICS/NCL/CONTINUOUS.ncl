@@ -8,7 +8,7 @@ begin
 ;;; The best way is to use limits only for observations in CONST_CONTINUOUS.ncl. If you want to use model limits be careful. 
 ;;; Because for 2 models or more, the amount of the observations which are used in the evaluation is determined
 ;;; by the limits of the first model. Thus, MEANOBS, STDOBS, Pearson and R^2 for all models are impacted
-;;; by the limits of the first model and that causes slight errors. In that case, it is good to avoid strict 
+;;; by the limits of the first model and that causes slight troubles. In that case, it is good to avoid strict 
 ;;; limits for model bot, top and difflim.
 
 if CASESTUDY.eq.1 then
