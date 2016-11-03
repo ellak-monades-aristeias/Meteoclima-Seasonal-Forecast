@@ -9,10 +9,10 @@ end if
 end if
 AREA="GLOBAL70"
 VNAME="MSLP" ;; use the respective name
-north=48
-south=29
-west=-8
-east=42
+north=70
+south=-70
+west=-180
+east=180
 
 CASE="GWRF"
 OUT="GWRF"
